@@ -51,11 +51,13 @@ Pastikan Python sudah terinstal di sistem Anda. Disarankan menggunakan Python ve
 ---
 ### CNN Model
 Model Convolutional Neural Network (CNN) memiliki 3 hidden layers, 1 fully-connected layer, dan 2 fully-connected layers memiliki struktur kompleks. Data input, seperti gambar, diproses melalui tiga hidden layers yang terdiri dari convolutional layers untuk mengekstrak fitur lokal (seperti tepi dan tekstur) dan pooling layers untuk mengurangi dimensi data. Hasilnya diteruskan ke fully-connected layer pertama yang meratakan data, diikuti oleh fully-connected layer kedua untuk menghasilkan representasi fitur lebih kompleks, yang akhirnya menghasilkan prediksi. Struktur ini memungkinkan model menangkap pola yang lebih mendalam, meskipun memerlukan komputasi lebih tinggi dan risiko overfitting jika dataset terbatas.
+
 ![CNN Model](imguap/CNNModel.png)
 
 ---
 ### Arsitektur Model VGG-19
 VGG19 adalah salah satu arsitektur dari **Convolutional Neural Network (CNN)** yang terkenal karena kedalamannya yang mencapai 19 lapisan. Arsitektur ini terdiri dari 16 **Convolutional layers**, yang berperan penting dalam mengekstraksi fitur-fitur utama dari citra, seperti tepi, tekstur, dan pola bentuk yang lebih kompleks. Setiap lapisan konvolusi bekerja secara hierarkis, mulai dari fitur dasar di lapisan awal hingga fitur yang lebih kompleks di lapisan-lapisan berikutnya. Selain itu, VGG19 dilengkapi dengan 5 **Max pooling layers**, yang berfungsi untuk mereduksi dimensi data yang diproses, mengurangi kompleksitas komputasi, serta meningkatkan kemampuan model dalam melakukan generalisasi terhadap data baru. Proses ini juga membantu dalam mengurangi risiko overfitting, memungkinkan model untuk lebih adaptif terhadap variabilitas dalam data. Pada bagian akhir, model ini memiliki 3 **fully connected layers**, yang menghubungkan neuron-neuron dari lapisan-lapisan sebelumnya untuk menghasilkan keputusan klasifikasi yang akurat. Fully connected layers bertugas untuk menggabungkan informasi yang telah diproses di lapisan konvolusi dan pooling, sehingga menghasilkan prediksi akhir berdasarkan informasi yang terkandung dalam fitur citra. Karena kemampuannya dalam menangkap informasi secara mendalam dan hierarkis, VGG19 telah banyak diterapkan dalam berbagai aplikasi pengenalan citra, termasuk pengenalan wajah, klasifikasi objek, dan analisis citra medis, menjadikannya pilihan populer dalam tugas-tugas yang melibatkan data citra kompleks.
+
 ![VGG19 Model](imguap/VGG19.png)
 
 ### Analisis Performa
