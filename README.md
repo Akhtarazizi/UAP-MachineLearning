@@ -9,7 +9,7 @@ Tujuan proyek ini adalah memanfaatkan teknik pembelajaran mesin *(Machine Learni
 
 ---
 ## 🌕 Dataset
-Dataset yang digunakan untuk pelatihan dan pengujian model diperoleh dari Kaggle. Dataset ini terdiri dari 4217 citra retina yang telah dikategorikan ke dalam beberapa jenis penyakit mata dengan pembagian sebanyak 1098 *diabetic_retinopathy*, 1007 *glaucoma*,  1038 *cataract* dan 1074 *normal* yang kemudian di pisah dengan ratio 80% data train, 10% data val, dan 10% data test, dan setelah itu melakukan proses augmentasi 1:4 terhadap data train. Anda dapat mengunduh dataset melalui tautan berikut: [Dataset Citra Retina dari Kaggle](https://www.kaggle.com/).
+Dataset yang digunakan untuk pelatihan dan pengujian model diperoleh dari Kaggle. Dataset ini terdiri dari 4217 citra retina yang telah dikategorikan ke dalam beberapa jenis penyakit mata dengan pembagian sebanyak 1098 *diabetic_retinopathy*, 1007 *glaucoma*,  1038 *cataract* dan 1074 *normal* yang kemudian di pisah dengan ratio 80% data train, 10% data val, dan 10% data test, dan setelah itu melakukan proses augmentasi 1:4 terhadap data train. Anda dapat mengunduh dataset melalui tautan berikut: [Dataset Citra Retina dari Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification/data)).
 
 ---
 ## 🚀 Instalasi
